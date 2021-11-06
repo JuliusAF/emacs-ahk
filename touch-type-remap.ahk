@@ -9,8 +9,8 @@ SendMode Input ; Recommended for new scripts due to its superior speed and relia
 ; The following line is a contribution of NTEmacs wiki http://www49.atwiki.jp/ntemacs/pages/20.html
 SetKeyDelay 0
 
-enabledIcon := "emacs_everywhere_16.ico"
-disabledIcon := "emacs_everywhere_disabled_16.ico"
+enabledIcon := "assets/emacs_everywhere_16.ico"
+disabledIcon := "assets/emacs_everywhere_disabled_16.ico"
 IsInEmacsMode := false
 NumericPrefix = 1
 CtrlXPrefix = 0
@@ -108,4 +108,4 @@ SendCommand(k1, k2="", k3="", k4="", k5="", k6="") {
 `; & v::SendCommand("{}}")
 `; & b::SendCommand("{-}")
 `; & n::SendCommand("{_}")
-`; & m::SendCommand("{:}")  
+`; & m::SendCommand("{:}")
